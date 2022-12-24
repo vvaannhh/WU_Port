@@ -11,7 +11,7 @@
 ![](img/19.png)
 - Sử dụng X-Forwarded-For giả mạo ip để vượt qua bức tường đầu tiên
 - Thêm X-Forwarded-For header và brute-force giá trị là 1 số bất kỳ (sử dụng payload đơn giản là các số tăng dần) với số lượng >= số request, đồng thời brute-force giá trị username. Attack type: Pitchfork  
-- Mô tả lab cho biết có thể xác định username đúng bằng cách sử dụng thời gian trả về. Hiển thị thời gian trả về bằng cách chọn Columns -> tích chọn Response received và Response completed. Nếu request có username nhập vào đúng sẽ có Response received lâu hơn đáng kể so với những request có username sai.
+- Mô tả lab cho biết có thể xác định username đúng bằng cách sử dụng thời gian trả về. Hiển thị thời gian trả về bằng cách `chọn Columns -> tích chọn Response received và Response completed`. Nếu request có username nhập vào đúng sẽ có Response received lâu hơn đáng kể so với những request có username sai.
 - Để chắc chắn về điều này nên lặp lại cuộc tấn công brute-force 1 vài lần
 `-> username: arlington`
 ![](img/21.png)
