@@ -1,6 +1,6 @@
 ![](../Files/2.png)
 ### Mô tả
-> này chứa một chức năng tải lên hình ảnh dễ bị tấn công. Nó cố gắng ngăn người dùng tải lên các loại tệp không mong muốn, nhưng dựa vào việc kiểm tra đầu vào do người dùng kiểm soát để xác minh điều này.
+> Phòng thí nghiệm này chứa một chức năng tải lên hình ảnh dễ bị tấn công. Nó cố gắng ngăn người dùng tải lên các loại tệp không mong muốn, nhưng dựa vào việc kiểm tra đầu vào do người dùng kiểm soát để xác minh điều này.
 > 
 > Để giải quyết phòng thí nghiệm, hãy tải lên một web shell PHP cơ bản và sử dụng nó để lọc nội dung của tệp / home / carlos / secret. Gửi bí mật này bằng cách sử dụng nút được cung cấp trong biểu ngữ của Lab.
 >
