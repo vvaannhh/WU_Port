@@ -1,8 +1,8 @@
 ![](img/49.png)
 ### Giải quyết
 - Phân tích các chức năng:
-    - Đăng nhập: Tại trang đăng nhập có tính năng `stay-logged-in`, và hệ thống sẽ xác nhận tính năng ghi nhớ đăng nhập của người dùng thông qua cookie `stay-logged-in`
-    ![](img/50.png). Tuy nhiên khó có thể đoán được dạng encode của cookie.
+    - Đăng nhập: Tại trang đăng nhập có tính năng `stay-logged-in`, và hệ thống sẽ xác nhận tính năng ghi nhớ đăng nhập của người dùng thông qua cookie `stay-logged-in`. Tuy nhiên khó có thể đoán được dạng encode của cookie.                                                                                                                                                             
+    ![](img/50.png)
     - Chức năng comment: Trường `gmail` không có thuộc tính type nên có thể nhập sai định dạng. Sau khi post comment, sẽ được chuyển tiếp kèm cookie `notification` và response trả về chứa 1 thông báo lỗi `Invalid email address: aaa `
     ![](img/51.png)
     ![](img/52.png)
